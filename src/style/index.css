@@ -1,0 +1,37 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    --clr-blue-dark: #101e5a;
+    --clr-blue-medium: #5d80b6;
+    --clr-blue-light: #acbdd3;
+    --clr-blue-veryLight: #f7f8f9;
+    --clr-grey-light: #cbc6c3;
+
+    --clr-black-05: rgba(0, 0, 0, 0.2);
+    --clr-white-05: rgba(255, 255, 255, 0.5);
+}
+
+html {
+    font-size: 62%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+a {
+    color: var(--clr-blue-dark);
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+a:active {
+    opacity: 0.5;
+}

@@ -1,0 +1,17 @@
+/* header {
+   background-image: url(../../public/images/WhatsApp\ Image\ 2022-06-15\ at\ 7.57.13\ PM\ \(1\).jpeg);
+} */
+
+header {
+   background-color: var(--clr-blue-medium);
+   display: flex;
+   justify-content: space-between;
+   padding: 1em;
+}
+
+header .logo {
+   width: 5em;
+}
+
+
+
